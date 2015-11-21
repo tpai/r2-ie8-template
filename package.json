@@ -8,6 +8,13 @@
     "kill": "taskkill /f /im node.exe",
     "server": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tpai/r2-ie8-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tpai/r2-ie8-template/issues"
+  },
   "author": "tonypai <tonypai@gmail.com> (http://github.com/tpai)",
   "license": "ISC",
   "dependencies": {
