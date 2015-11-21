@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/tpai/r2-ie8-template/issues"
   },
-  "author": "tonypai <tonypai@gmail.com> (http://github.com/tpai)",
+  "author": "tonypai <tony77794@gmail.com> (http://github.com/tpai)",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^5.8.29",
