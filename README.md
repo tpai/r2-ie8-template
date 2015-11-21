@@ -60,5 +60,5 @@ Sometimes node still called dibs on 8080 port after Ctrl-C, use this to kill all
 [dev-deps-badge]: https://david-dm.org/tpai/r2-ie8-template/dev-status.svg
 [dev-deps]: https://david-dm.org/tpai/r2-ie8-template#info=devDependencies
 
-[heroku-deployment-badge]: https://heroku-badge.herokuapp.com/?app=r2gw-ie8-template
+[heroku-deployment-badge]: https://heroku-badge.herokuapp.com/?app=r2-ie8-template
 [heroku-app]: http://r2-ie8-template.herokuapp.com
