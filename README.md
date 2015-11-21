@@ -1,6 +1,6 @@
 # R^2 IE8 Template
 
-> R2-ie8-template is made for IE8 support and based on react plus redux.
+> R2-ie8-template is made for IE8 support based on react plus redux.
 
 [![Travis Build Status][build-badge]][build]
 [![Dependency Status][deps-badge]][deps]
