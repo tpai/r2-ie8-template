@@ -1,21 +1,21 @@
-import { RECEIVE_CTNT } from "./types";
+/* global $ */
 
-export const fetchCtnt = (id) => {
-	return dispatch => {
-		$.ajax({
-			type: "GET",
-			url: `http://jsonplaceholder.typicode.com/posts/${id}`
-		})
-		.done(data => dispatch(receiveCtnt (data)))
-	}
-}
+import { RECEIVE_CTNT } from './types';
 
-const receiveCtnt = json => {
-	return {
-		type: RECEIVE_CTNT,
-		ctnt: {
-			title: json.title,
-			body: json.body
-		}
-	}
-}
+export const fetchCtnt = id =>
+    dispatch => {
+        $.ajax({
+            type: 'GET',
+            url: `http://jsonplaceholder.typicode.com/posts/${id}`
+        })
+            .done(data => dispatch(receiveCtnt(data)));
+    };
+
+const receiveCtnt = json =>
+    ({
+        type: RECEIVE_CTNT,
+        ctnt: {
+            title: json.title,
+            body: json.body
+        }
+    });

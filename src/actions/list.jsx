@@ -1,18 +1,18 @@
-import { RECEIVE_LIST } from "./types";
+/* global $ */
 
-export const fetchList = () => {
-	return dispatch => {
-		$.ajax({
-			type: "GET",
-			url: `http://jsonplaceholder.typicode.com/posts`
-		})
-		.done(data => dispatch(receiveList (data)))
-	}
-}
+import { RECEIVE_LIST } from './types';
 
-const receiveList = json => {
-	return {
-		type: RECEIVE_LIST,
-		list: json
-	}
-}
+export const fetchList = () =>
+    dispatch => {
+        $.ajax({
+            type: 'GET',
+            url: `http://jsonplaceholder.typicode.com/posts`
+        })
+            .done(data => dispatch(receiveList(data)));
+    };
+
+const receiveList = json =>
+    ({
+        type: RECEIVE_LIST,
+        list: json
+    });
